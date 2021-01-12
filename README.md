@@ -3,6 +3,12 @@ This repository contains all the necessary source files to compile CollabVM Serv
 
 CollabVM was coded and written by Cosmic Sans, Dartz, Geodude, and Modeco80.
 
+This repository in particular contains source code for my CollabVM instance.
+
+The only things modified are in http_src, as well as compatibility fixes for successful builds under Arch Linux (in my build environment, at least).
+
+You might also want to build collab-vm-web-app, and copy it to `/http/collab-vm/` in your CollabVM Server setup.
+
 ### How to use
 To start the server, first make sure it has executable permissions and then type ./collab-vm-server (port) (HTTP Directory (optional)). For example, to start CollabVM Server on port 6004 with the directory for the HTML files served from a folder called "collabvm", type ./collab-vm-server 6004 collabvm 
 

@@ -25,7 +25,7 @@
 #include "id.h"
 #include "error.h"
 
-#include <ossp/uuid.h>
+#include <uuid.h>
 
 #include <stdlib.h>
 
